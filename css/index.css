@@ -1,0 +1,58 @@
+@import url(common.css);
+
+p.visual {
+  padding-bottom: 67px;
+}
+
+main section {
+  border-bottom: 3px solid #000;
+}
+
+main section.LONGE ul {
+  padding-bottom: 67px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+main section h2 {
+  font-family: "Kaisei Tokumin", serif;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-width: 2px;
+  border-style: solid;
+  border-top-color: #868686;
+  border-bottom: 2px solid #868686;
+  margin-bottom: 50px;
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+main section p {
+  font-size: 20px;
+  text-align: left;
+  line-height: 35px;
+  padding-bottom: 53px;
+}
+
+main section.ibent {
+  margin-top: 67px;
+  margin-bottom: 50px;
+}
+
+main section.ibent li {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  p.visual img {
+    height: 300px;
+    object-fit: cover;
+    object-position: right;
+  }
+}

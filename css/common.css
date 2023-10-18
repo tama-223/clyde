@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@700&display=swap");
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #333;
+  font-size: 16px;
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  background-color: beige;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header h1 {
+  padding-top: 23px;
+  margin-bottom: 29px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+nav {
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: #6a6a6a;
+  border-bottom: 2px solid #6a6a6a;
+  font-size: 18px;
+  margin-bottom: 36px;
+  text-align: center;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  color: #54410c;
+  position: sticky;
+  top: 0;
+  background-color: rgba(245, 245, 220, 0.8);
+  z-index: 1;
+}
+
+nav ul {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+}
+
+nav li.active a {
+  font-weight: bold;
+}
+
+main {
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main aside {
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 57px;
+}
+
+main aside a:hover {
+  opacity: 0.7;
+}
+
+footer {
+  background-color: #322707;
+  padding-top: 42px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+footer section {
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #5f4e1c;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin-bottom: 30px;
+}
+
+footer section h2 {
+  font-size: 20px;
+}
+
+footer section p {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+footer p.rogo {
+  margin-bottom: 30px;
+}
+
+footer address {
+  color: #fffdf8;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+footer p.THECLYDE2016 {
+  background-color: #000;
+  color: #fffdf8;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+footer p.pagetop {
+  position: fixed;
+  right: 25px;
+  bottom: 34px;
+}
+
+@media (max-width: 767px) {
+  nav {
+    position: unset;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  nav li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  footer p.THECLYDE2016 span {
+    display: none;
+  }
+}

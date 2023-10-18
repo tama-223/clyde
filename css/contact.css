@@ -1,0 +1,91 @@
+@import url(common.css);
+
+main article h1 {
+  color: #1d1502;
+  font-size: 40px;
+  background-image: url(../img/since.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 117px;
+  margin-top: 67px;
+  margin-bottom: 67px;
+  font-weight: bold;
+  font-family: "Kaisei Tokumin", serif;
+}
+
+main article div.contact {
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  column-gap: 30px;
+  border: 2px solid #4a4a4a;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-left: 95px;
+  padding-right: 95px;
+  text-align: left;
+}
+
+main article div.left {
+  flex: 1;
+}
+
+main article div.right {
+  flex: 1;
+}
+
+main article div input,
+main article div textarea {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding: 8px;
+}
+
+main article div textarea {
+  height: 270px;
+  resize: vertical;
+}
+
+main article form p.rightmoji {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+main form button {
+  padding: 16.5px 62px;
+  background-color: #6b5311;
+  cursor: pointer;
+  color: #fff;
+  margin-bottom: 67px;
+  border: unset;
+}
+
+main form button:hover {
+  opacity: 0.7;
+}
+
+main article aside {
+  background-color: #6b5311;
+  color: #fff;
+  line-height: 1.5;
+  padding: 13px 30px;
+}
+
+main article p.moji {
+  text-align: left;
+  padding-top: 6px;
+}
+
+@media (max-width: 767px) {
+  main article div.contact {
+    display: block;
+  }
+}
+
+@media (max-width: 991px) {
+  main article div.contact {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}

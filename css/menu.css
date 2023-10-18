@@ -1,0 +1,81 @@
+@import url(common.css);
+
+main article h1 {
+  color: #1d1502;
+  font-size: 40px;
+  background-image: url(../img/since.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 117px;
+  margin-top: 67px;
+  margin-bottom: 67px;
+  font-weight: bold;
+  font-family: "Kaisei Tokumin", serif;
+}
+
+main div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main article section {
+  border: solid;
+  border-color: #4a4a4a;
+  border-width: 2px;
+  padding-top: 44px;
+  padding-bottom: 44px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 67px;
+  flex-basis: 48.6%;
+}
+
+main section h2 {
+  font-size: 24px;
+  color: #54410c;
+  margin-top: 22px;
+  margin-bottom: 11px;
+  background-image: url(../img/line.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  font-weight: bold;
+  height: 88px;
+}
+
+main section p.text {
+  font-size: 18px;
+  text-align: left;
+  margin-top: 22px;
+  margin-bottom: 12px;
+}
+
+main section p.yen {
+  font-size: 24px;
+  color: #54410c;
+  margin-bottom: 19px;
+}
+
+main section p.link a {
+  background-color: #54410c;
+  color: #fff;
+  font-size: 18px;
+  padding-top: 16.5px;
+  padding-bottom: 16.5px;
+  display: block;
+  max-width: 350px;
+  margin: 0 auto;
+  background-image: url(../img/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: right 24px center;
+}
+
+main section p.link a:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 991px) {
+  main div {
+    display: block;
+  }
+}
